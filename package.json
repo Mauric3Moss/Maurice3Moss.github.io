@@ -1,0 +1,19 @@
+{
+  "name": "mauric3moss-site",
+  "version": "0.0.1",
+  "description": "site for internship",
+  "homepage": "https://github.com/Mauric3Moss/Maurice3Moss.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/Mauric3Moss/Maurice3Moss.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mauric3Moss/Maurice3Moss.github.io.git"
+  },
+  "author": "Mauric3M0ss",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
