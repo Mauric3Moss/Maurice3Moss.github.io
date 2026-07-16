@@ -3,12 +3,102 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="script" href="js/script.js">
+        <meta name="theme-color" content="#07111f">
+        <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-        <title>Moss</title>
+        <title>Abbot B. Moss | Portfolio</title>
     </head>
+    <body>
+        <main class="portfolio-shell">
+            <header class="hero panel">
+                <div class="hero-copy">
+                    <p class="eyebrow">system online / legacy interface</p>
+                    <h1>Abbot B.</h1>
+                    <p class="lead">Tactical Programming</p>
+
+                    <div class="cta-row">
+                        <a class="button primary" href="#projects">enter grid</a>
+                        <a class="button secondary" href="#contact">open channel</a>
+                    </div>
+                </div>
+
+                <aside class="hero-stats panel inset">
+                    <div>
+                        <span class="stat-label">location</span>
+                        <span class="stat-value">CS@Mines / Aurora, CO</span>
+                    </div>
+                    <div>
+                        <span class="stat-label">focus</span>
+                        <span class="stat-value">web / motion / interface</span>
+                    </div>
+                    <div>
+                        <span class="stat-label">status</span>
+                        <span class="stat-value glow">available for interesting builds</span>
+                    </div>
+                </aside>
+            </header>
+
+            <section class="panel intro" id="about">
+                <div class="section-heading">
+                    <span>01</span>
+                    <h2>about the operator</h2>
+                </div>
+                <p>I like sharp geometry, strong visual systems, and interfaces that feel like they were pulled from a glowing arcade terminal. This portfolio leans into that legacy Tron mood while staying responsive, readable, and practical.</p>
+            </section>
+
+            <section class="panel projects" id="projects">
+                <div class="section-heading">
+                    <span>02</span>
+                    <h2>selected circuits</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <p class="project-tag">ui system</p>
+                        <h3>Neon Command Deck</h3>
+                        <p>Dashboard concept with high-contrast telemetry, layered glass panels, and animated state feedback.</p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-tag">front end</p>
+                        <h3>Lightcycle Showcase</h3>
+                        <p>Motion-rich landing page with grid trails, energetic reveals, and a synthwave-inspired presentation.</p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-tag">creative code</p>
+                        <h3>Archive Interface</h3>
+                        <p>Retro terminal experience mixing data panes, scanlines, and cinematic motion without losing clarity.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="panel skills">
+                <div class="section-heading">
+                    <span>03</span>
+                    <h2>capabilities</h2>
+                </div>
+
+                <div class="skill-list">
+                    <span>HTML & semantic structure</span>
+                    <span>CSS animation & visual systems</span>
+                    <span>JavaScript interaction patterns</span>
+                    <span>responsive layout design</span>
+                    <span>portfolio storytelling</span>
+                    <span>retro-futurist aesthetics</span>
+                </div>
+            </section>
+
+            <section class="panel contact" id="contact">
+                <div class="section-heading">
+                    <span>04</span>
+                    <h2>open a channel</h2>
+                </div>
+                <p>If you want to collaborate, build something strange, or improve this interface, reach out and I’ll answer from inside the grid.</p>
+                <a class="button primary" href="mailto:abbot@example.com">abbot@example.com</a>
+            </section>
+        </main>
+    </body>
 </html>
